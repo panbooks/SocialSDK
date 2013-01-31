@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:scrollbars="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/article_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moyan_words"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/url_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_share_url" />
+
+            <Button
+                android:id="@+id/share_without_pics_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ShareWithoutPictures" />
+
+            <Button
+                android:id="@+id/share_with_pics_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ShareWithPictures" />
+
+            <Button
+                android:id="@+id/share_with_my_own_pics_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ShareWithDefinedPictures" />
+
+            <Button
+                android:id="@+id/sys_share_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MoreShare" />
+
+            <ImageView
+                android:id="@+id/shareIconWeibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sina" />
+
+            <TextView
+                android:id="@+id/fengexian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Login demo:"
+                android:textColor="#dedede"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login" />
+
+            <ImageView
+                android:id="@+id/loginIconWeibo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sina" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

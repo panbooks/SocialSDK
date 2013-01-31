@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShareActivity!</string>
+    <string name="app_name">BaiduSocialDemo</string>
+    <string name="moyan_words">恋爱时钞票拿来更换靓衣买到浪漫，婚姻时钞票要用来供奉柴米油盐解决尿不湿。恋爱是一加一等于零两人亲得像一个人，婚姻是一加一等于三生个孩子完成优生。——莫言</string>
+    <string name="btn_share_article">Share this article</string>
+    <string name="btn_share_feed">Share</string>
+    <string name="power_string">Powered by Baidu</string>
+    <string name="test_share_url">http://www.myzaker.com/</string>
+    <string name="login">Login</string>
+    <string name="callback">Welcome to CallbackActivity！ (*^__^*) 嘻嘻</string>
+
+</resources>
